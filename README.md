@@ -12,8 +12,8 @@ Full AWS Rundeck Deployment through Terraform.
 
 1. Clone the repository.
 2. Create a keypair inside the cloned directory with `ssh-keygen -t rsa -b 4096 -C "your_email@example.com" -f /cloned/repo/directory/path/example`
-3. You can change the region and availability zone on the `variables.rf` file.
-4. You can change the EC2 parameters and public key content on the `instances.tf` file.
+3. If needed, change the region and availability zone on the `variables.rf` file.
+4. If needed, change the EC2 parameters and public key content on the `instances.tf` file.
 5. Validate: `terraform validate`.
 6. Deploy: `terraform apply` and confirm with `yes`.
 
